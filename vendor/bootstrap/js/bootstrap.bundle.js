@@ -1,3 +1,16 @@
+var firstName = prompt("What is your first name?")
+
+var lastName = prompt("What is your last name?")
+
+var userAge = prompt("How old are you?")
+
+greet();
+
+function greet () {
+
+  alert("Hello, " + firstName + " " + lastName + "!" + " You are " + (userAge * 12) + " months old and " + (userAge * 365) + " days old!");
+
+}
 /*!
   * Bootstrap v4.1.1 (https://getbootstrap.com/)
   * Copyright 2011-2018 The Bootstrap Authors (https://github.com/twbs/bootstrap/graphs/contributors)
